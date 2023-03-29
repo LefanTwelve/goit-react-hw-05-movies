@@ -1,7 +1,7 @@
 import { lazy, Suspense, useState, useEffect } from 'react';
 import { useParams, useLocation, Outlet, Link } from 'react-router-dom';
 import { MovieInfo } from 'components/MovieDetails/MovieInfo';
-import getMovieById from '../../moviedb/getMovieById'
+import getMovieById from '../../servises/getMovieById'
 
 const BackLink = lazy(() => import('../../components/BackLink/BackLink'));
 

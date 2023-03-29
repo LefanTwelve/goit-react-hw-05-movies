@@ -1,4 +1,4 @@
-import getMovieCast from "moviedb/getMovieCast";
+import getMovieCast from "servises/getMovieCast";
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 

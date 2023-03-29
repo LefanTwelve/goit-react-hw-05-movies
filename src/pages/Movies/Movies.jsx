@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { SearchBox } from 'components/SearchBox/SearchBox';
 import { MoviesList } from '../../components/MoviesList/MoviesList';
-import searchQueryMovie from 'moviedb/searchQueryMovie';
+import searchQueryMovie from 'servises/searchQueryMovie';
 
 const Movies = () => {
   const [inputValue, setInputValue] = useState('');
